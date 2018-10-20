@@ -4,9 +4,16 @@ An open source contribution to find a hobby [Github](https://github.com/jportell
 
 # The idea
 To improve user experience, design and functionality by implementing Sass and Redux.
-
-# Motivation
 The main objective of this project was to take an already existing project and continue working on it. The original Find-A-Hobby was a great fit for us as a team because we both like the original idea but at the same time we thought we could take it to a whole new level.
+
+# Tech Stack
+
+* [Koa](https://github.com/koajs/koa) - Async middleware for Node.
+* [Reccomendation Raccoon](https://github.com/guymorita/recommendationRaccoon) - Recommendation engine.
+* [node-jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) - JSON web token implementation for Node.
+* [Mongodb](https://github.com/mongodb/mongo) - No relational database.
+* [Mongoose](https://github.com/Automattic/mongoose) - Layer for mongodb.
+
 # Screenshots
 ![Main](https://i.imgur.com/B0q0GUB.png)
 
@@ -42,14 +49,6 @@ mongod
 ```
 npm run start
 ```
-
-# Tech Stack
-
-* [Koa](https://github.com/koajs/koa) - Async middleware for Node.
-* [Reccomendation Raccoon](https://github.com/guymorita/recommendationRaccoon) - Recommendation engine.
-* [node-jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) - JSON web token implementation for Node.
-* [Mongodb](https://github.com/mongodb/mongo) - No relational database.
-* [Mongoose](https://github.com/Automattic/mongoose) - Layer for mongodb.
 
 # Collaboration Team
 Rodrigo Sanchez - [Github](https://github.com/RodriFS)
