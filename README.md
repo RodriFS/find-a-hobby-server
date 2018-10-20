@@ -1,57 +1,49 @@
-<p align="center">
-  <img src="https://imgur.com/NuDk8QM.png" />
-</p>
+# Find a Hobby 2.0
 
+An open source contribution to find a hobby [Github](https://github.com/jportella93/find-a-hobby-client), made in collaboration with Alvaro Hernandez [Github](https://github.com/alvaroha1/find-a-hobby-client)
 
-> A web app that will help you discover the most amazing thing to spend your leisure time on.
+# The idea
+To improve user experience, design and functionality by implementing Sass and Redux.
 
-<h3 align="center">This is the server implementation of <br>
-https://github.com/jportella93/find-a-hobby-client</h3>
+# Motivation
+The main objective of this project was to take an already existing project and continue working on it. The original Find-A-Hobby was a great fit for us as a team because we both like the original idea but at the same time we thought we could take it to a whole new level.
+# Screenshots
+![Main](https://i.imgur.com/B0q0GUB.png)
 
-
-## Getting started
-Install mongodb and redis in your computer if you don't have done it already. <br>
-https://www.mongodb.com/ <br>
-https://redis.io/
+# Getting started
 
 1. Clone the repo
 
 ```
-$ git clone https://github.com/jportella93/find-a-hobby-server.git
-$ cd find-a-hobby-server
+$ git clone https://github.com/RodriFS/find-a-hobby-client.git
+$ cd find-a-hobby-client
 ```
 
-2. Install dependencies
+2. Install mongodb and redis in your computer if you don't have done it already.
+[MongoDB](https://www.mongodb.com/)
+[Redis](https://redis.io/)
+
+3. Install the rest of the dependencies
 ```
 $ npm install
 ```
 
-3. Start redis database
+3. Start the redis database
 ```
 $ redis-server
 ```
 
-4. In a new terminal window (keep the other one also open): Start mongodb database
+4. Start mongodb database
 ```
-$ mongod
+mongod
 ```
 
-5. In a new terminal window (keep the other two also open): Start development server
+5. Start development server
 ```
-$ npm run start
+npm run start
 ```
-If everything went good you will see a message like:
 
-  <p align="center"><em>Mongoose connected to mongodb://localhost/find-a-hobby <br>
-  find a Hobby! Server connected on port 3000</em></p>
-
-The number of the port that logs in (3000 in this case) is what you have to write in the client in the file /src/lib/apiClient.js
-
-6. Connect with client.
-Go to https://github.com/jportella93/find-a-hobby-client and follow the getting started instructions.
-
-
-## Built with
+# Tech Stack
 
 * [Koa](https://github.com/koajs/koa) - Async middleware for Node.
 * [Reccomendation Raccoon](https://github.com/guymorita/recommendationRaccoon) - Recommendation engine.
@@ -59,16 +51,16 @@ Go to https://github.com/jportella93/find-a-hobby-client and follow the getting 
 * [Mongodb](https://github.com/mongodb/mongo) - No relational database.
 * [Mongoose](https://github.com/Automattic/mongoose) - Layer for mongodb.
 
+# Collaboration Team
+Rodrigo Sanchez - [Github](https://github.com/RodriFS)
+Alvaro Hernandez - [Github](https://github.com/alvaroha1)
 
-## Author
 
-Jon Portella - [Github](https://github.com/jportella93) - [LinkedIn](https://www.linkedin.com/in/jonportella/)
+## Original Author
+
+Jon Portella - [Github](https://github.com/jportella93)
 
 
 ## License
 
 This project is licensed under the MIT License.
-
-<p align="center">
-  <img src="https://imgur.com/W3jHOFM.png" />
-</p>
