@@ -35,17 +35,7 @@ $ cd find-a-hobby-client
 $ npm install
 ```
 
-3. Start the redis database
-```
-$ redis-server
-```
-
-4. Start mongodb database
-```
-mongod
-```
-
-5. Start development server
+5. Start the server
 ```
 npm run start
 ```
